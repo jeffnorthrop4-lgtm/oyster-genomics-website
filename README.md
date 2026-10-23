@@ -22,4 +22,4 @@ Netlify's local `.netlify` state and environment files are ignored by Git.
 
 ## Editorial notes
 
-The hero is the population-cluster animation from the earlier public page. The shell still is kept for link previews. Company progress is based on supplied company materials; research goals and commercial targets are labeled accordingly. Target genes and identifying mechanisms are intentionally omitted from the source.
+The hero image is generated illustrative brand artwork of an Eastern oyster. Company progress is based on supplied company materials; research goals and commercial targets are labeled accordingly. Target genes and identifying mechanisms are intentionally omitted from the source.
