@@ -22,4 +22,4 @@ Netlify's local `.netlify` state and environment files are ignored by Git.
 
 ## Editorial notes
 
-The hero image is generated illustrative brand artwork of an Eastern oyster. Company progress is based on supplied company materials; research goals and commercial targets are labeled accordingly. Target genes and identifying mechanisms are intentionally omitted from the source.
+The hero photograph is the Switchpoint title image, shells on dark water. Company progress is based on supplied company materials; research goals and commercial targets are labeled accordingly. Target genes and identifying mechanisms are intentionally omitted from the source.
