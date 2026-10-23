@@ -1,8 +1,9 @@
 'use strict';
 const header = document.querySelector('.site-header');
 const menuButton = document.querySelector('.menu-toggle');
-const menuLabel = menuButton.querySelector('.menu-label');
 const navigation = document.querySelector('#site-navigation');
+if (header && menuButton && navigation) {
+const menuLabel = menuButton.querySelector('.menu-label');
 const compactLayout = window.matchMedia('(max-width: 800px)');
 function closeMenu({ restoreFocus = false } = {}) {
   menuButton.setAttribute('aria-expanded', 'false');
@@ -38,7 +39,8 @@ header.addEventListener('focusout', event => {
   if (event.relatedTarget && !header.contains(event.relatedTarget)) closeMenu();
 });
 compactLayout.addEventListener('change', () => closeMenu());
-document.querySelector('#year').textContent = String(new Date().getFullYear());
-// All navigation and content remain available without JavaScript.
 document.documentElement.classList.add('js');
 menuButton.hidden = false;
+}
+const year = document.querySelector('#year');
+if (year) year.textContent = String(new Date().getFullYear());
